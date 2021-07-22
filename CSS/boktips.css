@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: poppins;
+    align-items: center;
+    background-image: url(https://i.postimg.cc/C5sRSDdr/7922-AAAD-011-F-44-BB-8309-B1-AA8-F6-ABC56.jpg);
+  }
+  
+  .container {
+    height: 35%;
+    width: 570px;
+    position: static;
+    margin: auto;
+    padding: 90px 0;
+    }
+  
+  #newtask{
+      position: relative;
+      align-items: center;
+      padding: 30px 15px;
+      background: #fff;
+      border-radius: 5px;
+      box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+    }
+  
+  #newtask input{
+      border-radius: 5px;
+      width: 70%;
+      height: 45px;
+      font-size: 15px;
+      border: 2px solid #d1d3d4;
+      padding: 12px;
+      color: #111111;
+      font-weight: 500;
+      position: relative;
+      font-family: poppins;
+    }
+  
+  #newtask input:focus{
+      outline: none;
+      border-color: #eb7760;
+  }
+  
+  #newtask button{
+      position: relative;
+      float: right;
+      width: 90px;
+      height: 45px;
+      border-radius: 5px;
+      font-weight: 500;
+      font-size: 16px;
+      background: #eb7760;
+      color: #fff;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      font-family: poppins;
+  }
+  
+  #tasks{
+      width: 100%;
+      position: relative;
+      margin-top: 40px;
+      background: #fff;
+      padding: 30px 20px;
+      border-radius: 5px;
+      box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+      font-family: poppins;
+  }
+  
+  .task{
+      background: #fff;
+      height: 50px;
+      padding: 5px 10px;
+      border-radius: 0px;
+      margin-top: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      cursor: pointer;
+      border-bottom: 2px solid #eb7760;
+      font-family: poppins;
+  }
+  
+  .task span{
+      font-size: 20px;
+      font-weight: 400;
+      cursor: pointer;
+  }
+  
+  .task button{
+      border: none;
+      background: #eb7760;
+      height: 100%;
+      width: 45px;
+      color: #fff;
+      border-radius: 5px;
+      cursor: pointer;
+  }
+  
+  .completed{
+      text-decoration: line-through;
+      opacity: 0.7;
+  }
+  
