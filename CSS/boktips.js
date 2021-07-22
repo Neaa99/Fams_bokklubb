@@ -1,7 +1,6 @@
 
 
-document.querySelector('#push').onclick = function() 
-{ //Listans funktion, när du klickar på #push
+document.querySelector('#push').onclick = function() { //Listans funktion, när du klickar på #push
 
     if(document.querySelector('#newtask input').value.length == 0){ //Om #newtask inputs värde = 0 (inget) --> Alert som säger till
          alert("Please Enter a Task");
@@ -37,4 +36,4 @@ document.querySelector('#push').onclick = function()
   
        }
      }
-     
+  
