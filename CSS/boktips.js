@@ -23,6 +23,8 @@ document.querySelector('#push').onclick = function() { //Listans funktion, när 
   
          }
   
+
+         
    var tasks = document.querySelectorAll('#taskname'); // id:t #taskname blir var tasks
   
          for (var i = 0; i < tasks.length; i++) { //Loop
@@ -33,7 +35,9 @@ document.querySelector('#push').onclick = function() { //Listans funktion, när 
          }
   
          document.querySelector('#newtask input').value = ""; //Newtask inputet värde blir: ""
-  
+              localStorage.setItem('visitorname', tasks);
+
        }
+       
      }
-  
+    
