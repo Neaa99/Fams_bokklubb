@@ -20,5 +20,8 @@
 
     .aktuell_bok {
       display: flex;
-      top-margin: 10px;
+      position: absolute;
+      top: 20px;
+      padding: 10px;
+      box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
     }
