@@ -1,11 +1,19 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
   }
   
   body {
-    font-family: poppins;
-    align-items: center;
+    margin: 0;
     background-image: url(https://i.postimg.cc/C5sRSDdr/7922-AAAD-011-F-44-BB-8309-B1-AA8-F6-ABC56.jpg);
-  }
+    font-family: sans-serif;
+}
+
+  .container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 0 0; /* Hur lång/bred sidan ska vara */
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    }   
