@@ -26,12 +26,7 @@
       box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
     }
 
-    section {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      flex-direction: row;
-    }
+   
 
     .josse,
     .mamma,
@@ -108,4 +103,16 @@
       left: 80%;
     }
     
+    .namn {
+      font-family: poppins;
+      font-size: 20px;
+      position: relative;
+      display: flex;
+      justify-content: space-around;
+      padding-top: 32%;
+      padding-left: 5%;
+      padding-right: 5%;
+    }
+
+   
     
