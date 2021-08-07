@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    margin: 0;
+    background-image: url(https://i.postimg.cc/C5sRSDdr/7922-AAAD-011-F-44-BB-8309-B1-AA8-F6-ABC56.jpg);
+    font-family: sans-serif;
+}
+
+  .container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 0 0; /* Hur lång/bred sidan ska vara */
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    }   
+
+    .aktuell_bok {
+      display: flex;
+      position: absolute;
+      top: 30px;
+      padding: 10px;
+      box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+    }
+
+
+    .josse,
+    .mamma,
+    .linnea {
+      position: absolute;
+      top: 80%;
+      transform: translate(-50%, -50%) rotateY(180deg);
+      display: flex;
+    }
+    
+    .josse input,
+    .mamma input,
+    .linnea input {
+      display: none;
+    }
+    
+    .josse label,
+    .mamma label,
+    .linnea label {
+      display: block;
+      cursor: pointer;
+      width: 50px;
+    
+    }
+    
+    .josse label:before,
+    .mamma label:before,
+    .linnea label:before {
+      content: '\f005';
+      font-family: fontAwesome;
+      position: relative;
+      display: block;
+      font-size: 50px;
+      color: #353435;
+    }
+    
+    .josse label:after,
+    .mamma label:after,
+    .linnea label:after {
+      content: '\f005';
+      font-family: fontAwesome;
+      position: absolute;
+      display: block;
+      font-size: 50px;
+      color: #393B78;
+      top:0;
+      opacity: 0;
+      transition; .5s;
+      text-shadow: 0 2px 5px rgba(0, 0, 0, .5);
+    }
+    
+    .josse label:hover:after,
+    .josse label:hover ~ label:after,
+    .josse input:checked ~ label:after,
+    .mamma label:hover:after,
+    .mamma label:hover ~ label:after,
+    .mamma input:checked ~ label:after,
+    .linnea label:hover:after,
+    .linnea label:hover ~ label:after,
+    .linnea input:checked ~ label:after {
+      opacity: 1;
+    
+    }
+    
+    .josse {
+      left: 20%;
+    }
+    
+    .mamma { 
+      left: 50%;
+    }
+    
+    .linnea {
+      left: 80%;
+    }
+    
+    .namn {
+      font-family: poppins;
+      font-size: 20px;
+      position: relative;
+      display: flex;
+      justify-content: space-around;
+      padding-top: 32%;
+      padding-left: 5%;
+      padding-right: 5%;
+    }
+
+   
+    
